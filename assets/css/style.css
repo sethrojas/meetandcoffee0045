@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+* {
+    padding: 0%;
+    margin: 0%;
+    ;
+}
+
+h1 {
+    margin: 0%;
+}
+
+ul {
+    margin: 0%;
+}
+
+/*NAV*/
+nav {
+    background-color: black;
+    padding: 25px;
+    font-size: 25px;
+}
+
+nav ul {
+    margin-left: 100px;
+
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 50px;
+
+}
+
+nav a {
+
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 0.25px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.hero-section {
+    background-image: url(../img/bg-hero.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px;
+    letter-spacing: 1.5px;
+    text-shadow: 0px 3px 6px #00000080;
+    text-align: right;
+    color: #FFFFFF;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.hero-section h1 {
+    font-size: 60px;
+    font-weight: 800;
+    margin-left: 491px;
+    margin-top: 125px
+}
+
+.hero-section h2 {
+    font-size: 40px;
+    font-weight: lighter;
+    margin-left: 491px;
+    margin-bottom: 100px;
+}
+
+#ubicacion {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    padding: 125px;
+}
+#ubicacion img {
+    width: 519px;
+    height: 344px;
+}
+#ubicacion h2 {
+font-size: 45px;
+padding-top: 25px;
+letter-spacing: 0.9px;
+font-weight: bold;
+}
+address{
+    letter-spacing: 0.5px;
+    padding: 0px 350px;
+}
+#charlas {
+    background-color: #A4452C;
+    height: 501px;
+    border: 1px solid rgba(0, 0, 0, 0);
+    vertical-align: middle;
+}
+
+
+
+#imagencharla {
+    margin: 20px 30px;
+    width: 312px;
+    height: 294px;
+    border-radius: 5px;
+    display: inline-block;
+
+
+}
+
+.textocharla {
+    color: white;
+    text-shadow: #000000 2px 2px;
+    vertical-align: top;
+    display: inline-block;
+
+}
+
+#eventos {
+    display: inline-block;
+    align-items: center;
+    height: 770px;
+
+}
+
+#contacto {
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 278px;
+    padding-top: 50px;
+}
+
+#contacto a {
+    color: azure;
+
+}
+
+#contacto li {
+    display: inline-block;
+}
